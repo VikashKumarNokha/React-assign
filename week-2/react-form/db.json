@@ -1,0 +1,32 @@
+{
+  "UserDetails": [
+    {
+      "name": "VIKASH KUMAR",
+      "age": "23",
+      "address": "VILL+PO- BHALUAHIN PS- NOKHA, DIST- ROHTAS, STATE- BIHAR",
+      "Department": "Admin",
+      "salary": "25000",
+      "unmaried": "Unmaried",
+      "id": 1
+    },
+    {
+      "name": "Nitesh Kumar",
+      "age": "25",
+      "address": "New Delhi, India",
+      "Department": "Cashier",
+      "salary": "30000",
+      "unmaried": "Unmaried",
+      "maried": "maried",
+      "id": 2
+    },
+    {
+      "name": "vk",
+      "age": "45",
+      "address": "NOKHA (BIHAR), INDIA",
+      "Department": "Admin",
+      "maried": "maried",
+      "salary": "67768",
+      "id": 3
+    }
+  ]
+}
