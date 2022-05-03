@@ -13,7 +13,7 @@ const Todolist=()=>{
 
     <div>
         <Todo getData={getData}/>
-        <div className="maincon">
+        <div className="main">
             {
                 todo.map((el)=>(
                     <div className="input">

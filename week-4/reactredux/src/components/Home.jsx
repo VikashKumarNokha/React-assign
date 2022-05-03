@@ -41,23 +41,23 @@ console.log(res.data);
     <div>
       <h1>Todo Home Page</h1>
       <input
-        className="inputform"
+        className="form"
         type="text"
         name="todo"
         placeholder="Add todo..."
         onChange={handleTodo}
       />
       <input
-        className="inputform"
+        className="form"
         type="text"
         name="authorName"
         placeholder="Add your Name ..."
         onChange={handleTodo}
       />
-      <button className="btn" onClick={handlePost}>Add</button>
+      <button className="bt" onClick={handlePost}>Add</button>
       <div>
         <Link to={"/todolist"}>
-          <button className="btn">View todo list</button>
+          <button className="bt">View todo list</button>
         </Link>
       </div>
     </div>

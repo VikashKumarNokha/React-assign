@@ -20,9 +20,9 @@ const Todos=()=>{
 
 
     return (
-        <div className="maincontainer">
-            <input className="maininput" onChange={handlechange} type="text" placeholder="Enter Todo"></input>
-            <button className="mainbutton" onClick={handleSubmit}>Submit</button>
+        <div className="main">
+            <input className="minput" onChange={handlechange} type="text" placeholder="Enter Todo"></input>
+            <button className="mbutton" onClick={handleSubmit}>Submit</button>
             {todos.map((e)=>(
                 <h2>{e.title}</h2>
             ))}

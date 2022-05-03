@@ -1,4 +1,4 @@
-.stopwatch{
+.stopw{
     /* border: 1px solid lightgray; */
     width: 400px;
     margin: 100px auto;
@@ -10,21 +10,21 @@
 
 .start{
   align-items: center;
-  background-color: #06f;
-  border: 2px solid #06f;
+  background-color: rgba(0, 102, 255, 0.588);
+  border: 2px solid rgb(21, 255, 0);
   box-sizing: border-box;
-  color: #fff;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   display: inline-flex;
-  fill: #000;
+  fill: rgb(0, 0, 0);
   font-family: Inter,sans-serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   height: 48px;
   justify-content: center;
   letter-spacing: -.8px;
   line-height: 24px;
-  min-width: 140px;
+  min-width: 130px;
   outline: 0;
   padding: 0 17px;
   text-align: center;
@@ -59,25 +59,25 @@
 }
 
 .header{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia,  serif;
     margin-bottom: 100px;
     margin-top: 0px;
     text-align: right;
 }
 
-.stop{
+.stp{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     border: 1px solid blue;
     padding: 10px ;
 }
 .timer{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, 'Times New Roman', serif;
     font-size: 20px;
 }
 .time{
-  width: 200px;
-  padding: 10px;
+  width: 250px;
+  padding: 13px;
   margin: 0 10px 0 10px;
-  font-size: 15px;
+  font-size: 17px;
 }

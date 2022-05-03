@@ -15,8 +15,8 @@ const Todo =({getData})=>{
     return(
         <div className="todomain">
         <div className="todoinput">
-        <input type="text" className="form" onChange={handleChange} placeholder="Add Todo"/>
-        <button className="btntodo" type="button" onClick={()=>{
+        <input type="text" className="fom" onChange={handleChange} placeholder="Add Todo"/>
+        <button className="btn" type="button" onClick={()=>{
             getData(text);
         }}>Add Todo</button>
         </div>

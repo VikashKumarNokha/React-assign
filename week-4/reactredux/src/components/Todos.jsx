@@ -60,20 +60,20 @@ export const Todos = () => {
 
    <div>
       <Link to="/" >
-          <button className="btn">Go To HomePage</button>
+          <button className="bt">Go To HomePage</button>
       </Link>
       {
           todos.map((el )=>{
               return (
-                <div className={el.status ? "green" : "red"} key={el.id}>
-                  <h1 className="dbmain">
+                <div className={el.status ? "gree" : "re"} key={el.id}>
+                  <h1 className="db">
                     Title: {el.title} & authName: {el.authorName}
                   </h1>
-                  <button className="btn" onClick={()=>{
+                  <button className="bt" onClick={()=>{
                       handleDelete(el.id)
-                  }}>Remove</button> <button className="btn" onClick={()=>{
+                  }}>Remove</button> <button className="bt" onClick={()=>{
                       handleToggle(el.id)
-                  }}>Toggle</button> <button className="btn">Edit</button>
+                  }}>Toggle</button> <button className="bt">Edit</button>
                 </div>
               );
           })

@@ -45,7 +45,7 @@ function Todo() {
        {todolist.filter((e)=>(e.status===false)).map((e,i) => {
           return <Todoitem  todo={e} todoindex={i} classdiv={"tododiv"} handlestatus={handlestatus} Deltetodo= {Deltetodo}/>
        })}
-        <button className="com_todo" onClick={() => {
+        <button className="com_T" onClick={() => {
           setShow(!show)
         }} >completed todo</button>
         {show ? todolist.filter((e)=>(e.status===true)).map((e,i) => {

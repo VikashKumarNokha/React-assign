@@ -9,7 +9,7 @@ export const Todoitem = ({todo , classdiv, todoindex, handlestatus, Deltetodo}) 
             
             <div  className={`${todo.status}`}>{todo.status ? "Done" : "Not Done"}</div>
             {/* {todo.title} {todo.status ? "Done" : "Not Done"} */}
-            <div className='toggle_delete'>
+            <div className='toggle'>
             <button className='button' onClick={() => {
                 Deltetodo(todo.id)
             }}>Delete</button>

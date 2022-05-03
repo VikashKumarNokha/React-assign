@@ -3,8 +3,8 @@
 }
 
 span:nth-child(1){
-    color:crimson
+    color: red;
 }
 span:nth-child(2){
-    color:rgb(57, 20, 220)
+    color: black;
 }

@@ -8,14 +8,14 @@ function Todoinput({getdata}) {
 
     return (
       <div className="Todoinput">
-      <input className="inputbox" onChange={(e) =>{
+      <input className="box" onChange={(e) =>{
         //  console.log(e.target.value)
          setText(e.target.value)
        }} 
        type="text"
        placeholder="Add a To-Do...." 
        />
-      <button className="addbutton" onClick={() => {
+      <button className="add" onClick={() => {
            getdata(text)
        }}>Add Todo</button>
       </div>

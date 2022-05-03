@@ -3,6 +3,6 @@ import "./all.css"
 export const Button =()=>{
     
     return(
-        <button className="NavButton">Contact</button>
+        <button className="NavBtn">Contact</button>
     )
 }
